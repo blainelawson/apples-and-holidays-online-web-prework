@@ -91,13 +91,13 @@ def all_holidays_with_bbq(holiday_hash)
   
   # new_array
   
-  holiday_hash.collect do |season, holidays|
-      holidays.collect do |holiday, supply|
-        if supply.include?("BBQ")
-          holiday
-        end
-      end
-  end.flatten.compact
+  # holiday_hash.collect do |season, holidays|
+  #     holidays.collect do |holiday, supply|
+  #       if supply.include?("BBQ")
+  #         holiday
+  #       end
+  #     end
+  # end.flatten.compact
   
   
 end
