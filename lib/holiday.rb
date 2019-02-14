@@ -82,7 +82,6 @@ def all_holidays_with_bbq(holiday_hash)
 
     holidays.each do |holiday, supply|
       if supply.join(" ").include?("BBQ") 
-        binding.pry
         holiday
       end
     end
